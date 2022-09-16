@@ -1,0 +1,28 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 4vw;
+}
+.paragraph{
+    font-size: 2vw;
+}
+ol{
+    width: 30vw;
+    font-size: 1.4vw;
+}
+li{
+    margin-top: 6px;
+}
+li:hover{
+    color:red;
+    cursor: pointer;
+    font-weight: bold;
+}
