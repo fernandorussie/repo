@@ -1,4 +1,5 @@
-*{margin: 0;
+*{
+margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
@@ -7,22 +8,158 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FED8B1;
+}
+.box-title{
+    margin: 50px 0;
 }
 .title{
     font-size: 4vw;
+    color:purple;
 }
 .paragraph{
     font-size: 2vw;
+    text-decoration: underline;
 }
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 90%;
+}
+.box-list{
+    width: 50%;
+ }
+.box-firstpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    width: 50%;
+    height: 50vh;
+}
+.img-firstpage{
+    width: 400px;
+}
+
 ol{
-    width: 30vw;
+    width: 35vw;
     font-size: 1.4vw;
+    text-align: justify;
 }
 li{
     margin-top: 6px;
+    width: 100%;
 }
 li:hover{
-    color:red;
     cursor: pointer;
     font-weight: bold;
+}
+h2{
+    margin: 20px 0;
+    text-align: center;
+}
+.img{
+    border-radius: 30px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.naruto{
+    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2021/08/naruto-naruto-uzumaki-2425679.jpg?itok=cSHefN5K);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 25vh;
+    opacity: 0.3;
+    margin: 50px 0;
+    padding: 25px;
+    border: solid 1px;
+    position: relative;
+    z-index: -1;
+}
+.div-paragraph{
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    font-weight: bold;
+}
+.barra{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+
+
+.span1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.div1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.div1:hover{
+    background-color: white;
+    color: red;
+}
+.div2{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.div2:hover{
+    background-color: white;
+    color: green;
+}
+.div3{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.div3:hover{
+    background-color: white;
+    color: yellow;
+}
+.div4{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.div4:hover{
+    background-color: white;
+    color: blue;
 }
